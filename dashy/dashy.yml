@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  my-dashboard:
+    image: lissy93/dashy:latest
+    container_name: my-dashboard
+    ports:
+      - "8089:80"
+    volumes:
+      - /home/k8s/devops/dashy/dashy-conf.yml:/app/public/conf.yml
+      - /home/k8s/devops/dashy/dashy-gettingstart.yml:/app/public/dashy-gettingstart.yml
+    restart: always
+

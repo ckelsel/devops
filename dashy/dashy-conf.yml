@@ -1,0 +1,15 @@
+pageInfo:
+  title: Home
+appConfig:
+  theme: default
+  language: cn
+  layout: auto
+  iconSize: medium
+sections:
+  - name: 开发
+    icon: fa-rocket
+    items:
+      - title: GitLab
+        icon: https://f1.allesedv.com/16/gitlab.com
+        url: http://10.0.0.25:8088/
+        id: 0_45777_gitlab
